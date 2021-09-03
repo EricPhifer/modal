@@ -52,6 +52,14 @@ const PortalStyles = styled.div`
     z-index: 102;
   }
 
+  @media only screen and (max-width: 800px) {
+    .contentContainer {
+      p {
+        margin: 1rem 1.5rem;
+        font-size: 1.5rem;
+      }
+    }
+  }
   @media only screen and (max-width: 400px) {
     .contentContainer {
       p {
